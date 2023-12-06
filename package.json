@@ -8,9 +8,29 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/unfetch.mjs",
+      "default": "./dist/unfetch.js"
+    }
+  },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "@svgr/webpack": "^8.1.0",
+    "bootstrap": "^5.3.2",
+    "isomorphic-fetch": "^3.0.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "leaflet": "^1.9.4",
+    "next": "14.0.0",
+    "node-sass": "^9.0.0",
     "react": "^18",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18",
-    "next": "14.0.0"
+    "react-leaflet": "^4.2.1",
+    "react-places-autocomplete": "^7.3.0",
+    "rfs": "^10.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "unfetch": "^5.0.0"
   }
 }
